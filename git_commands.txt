@@ -1,0 +1,40 @@
+git init //establishes the folder you want to do Github stuff in. Use sommands like dir to choose a location and then cd (whatever file) to get to that location
+git add (whatever but must add the .txt or .doc or .exe or .whatever)
+git add . //adds everything that was modified
+
+git status //looks what's inside the commit (what might happen is that you will see GREEN text and RED text. The Green text is what your contribution to the code, however the
+Red text signifies that someone else had already made a modification). This might also be caused by you making an edit but not saving it into your commit. To do this do
+the "git add (whatever file this may be)"
+
+git commit -m "My commit message" //established the commit.... now you need to send it...
+git push origin master //sends the commit, username and pass will come up
+
+IF you get an error from this use the following line: git pull origin development
+
+
+
+How to add repositor:
+
+git remote add origin https://github.com/Guildedwings/Verona.git
+
+if nothing is coming up within the commit
+
+touch "filename".txt (or whatever the . is)
+
+
+
+
+
+
+
+
+
+dir - You can see whatever is in the file
+
+
+
+Best installation for Gir:
+https://git-scm.com/download/win
+
+
+ALL GIT FILES MUST BE IN MY DOCUMENTS!!!
