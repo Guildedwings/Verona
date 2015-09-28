@@ -9,7 +9,8 @@ the "git add (whatever file this may be)"
 git commit -m "My commit message" //established the commit.... now you need to send it...
 git push origin master //sends the commit, username and pass will come up
 
-IF you get an error from this use the following line: git pull origin development
+IF you get an error from this use the following line: 
+git pull origin master
 
 
 
@@ -38,3 +39,5 @@ https://git-scm.com/download/win
 
 
 ALL GIT FILES MUST BE IN MY DOCUMENTS!!!
+
+Will this go through?
