@@ -18,6 +18,11 @@ cd - short for change directory. cd helps you navigate and change over from one 
 
 in our case we are going to use cd to get to github
 
+But before we do this make a folder called Github in this file location
+C:\Users\Calandra-din\AppData\Local\Programs\Git - You can copy and paste this into the Windows Explorer
+Make a folder called Github
+Now go back into the github shell
+
 Do the following:
 $cd Github
 
@@ -39,6 +44,12 @@ Now let's learn how to ACTUALLY USE the Github Shell.
 
 
 git remote add origin https://github.com/Guildedwings/Verona.git
+
+Now you need to sign in
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
 
 
 
