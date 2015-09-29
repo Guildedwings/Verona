@@ -1,3 +1,60 @@
+Starters Guide to Github - by Dino 
+
+Install github from this link: https://git-scm.com/download/win
+While you're going through the install DON'T CHANGE ANYTHING just keep hitting "Next"
+Congratulations you've just installed github dipshit...
+
+Hit the start button and search up "Git Bash"     DO NOT CLICK "Git GUI" or "Git CMD".
+
+Once you've open the Git Bash do the following: 
+$ dir
+*A bunch of file directories will come up. We need to get to a file called Github which is located in the 
+My Documents folder. Our goal right now is to navigate to there*
+
+There are two commands you need to know
+
+dir- short for directory. Lets you see what is inside the current folder you are navigated in.
+cd - short for change directory. cd helps you navigate and change over from one directory to another
+
+in our case we are going to use cd to get to github
+
+Do the following:
+$cd Github
+
+Now you are in the Github folder. this is where you will save your code into and will also be the folder where
+you submit code into the repository. But what is a repository?
+A repository is like a Class-share folder where you can grab code that people have submitted and make your
+own adjustments to is. A prime example of this would be something like Google docs where we can download someone
+elses Homework assignment and change the name to make it look like it was yours. Okay bad joke... But you get
+the idea it's a way for us to make our own versions of the code and submit them for other people to look at.
+
+Now there is one last crucial step to installing Github
+Do the following:
+$git init
+
+What 'git init' will do is initialize the folder as a 'github folder'.
+Congratulations! We've officially set up git hub and learned how to navigate throughout the shell.
+
+Now let's learn how to ACTUALLY USE the Github Shell.
+
+
+git remote add origin https://github.com/Guildedwings/Verona.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Github referance:
+
 git init //establishes the folder you want to do Github stuff in. Use sommands like dir to choose a location and then cd (whatever file) to get to that location
 git add (whatever but must add the .txt or .doc or .exe or .whatever)
 git add . //adds everything that was modified
@@ -41,3 +98,7 @@ https://git-scm.com/download/win
 ALL GIT FILES MUST BE IN MY DOCUMENTS!!!
 
 Will this go through?
+
+
+
+git commit --amend --reset-author
