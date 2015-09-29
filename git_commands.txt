@@ -2,7 +2,7 @@ Starters Guide to Github - by Dino
 
 Install github from this link: https://git-scm.com/download/win
 While you're going through the install DON'T CHANGE ANYTHING just keep hitting "Next"
-Congratulations you've just installed github dipshit...
+Congratulations you've just installed github... w00t?
 
 Hit the start button and search up "Git Bash"     DO NOT CLICK "Git GUI" or "Git CMD".
 
