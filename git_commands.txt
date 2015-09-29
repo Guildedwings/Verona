@@ -2,7 +2,7 @@ Starters Guide to Github - by Dino
 
 Install github from this link: https://git-scm.com/download/win
 While you're going through the install DON'T CHANGE ANYTHING just keep hitting "Next"
-Congratulations you've just installed github... w00t?
+Congratulations you've just installed github dipshit...
 
 Hit the start button and search up "Git Bash"     DO NOT CLICK "Git GUI" or "Git CMD".
 
@@ -18,10 +18,11 @@ cd - short for change directory. cd helps you navigate and change over from one 
 
 in our case we are going to use cd to get to github
 
-But before we do this make a folder called Github in this file location
-C:\Users\Calandra-din\AppData\Local\Programs\Git - You can copy and paste this into the Windows Explorer
-Make a folder called Github
-Now go back into the github shell
+First we must set up a Blank Github folder. Right clock the Github icon on the taskbar, right click on Github
+again and hit propertise > File location. Right click in a blank area in the folder and create a folder
+called "Github"
+
+No go back into the shell and do the following.
 
 Do the following:
 $cd Github
@@ -42,25 +43,37 @@ Congratulations! We've officially set up git hub and learned how to navigate thr
 
 Now let's learn how to ACTUALLY USE the Github Shell.
 
-
+Connecting to the School's repository
 git remote add origin https://github.com/Guildedwings/Verona.git
 
-Now you need to sign in
+
+How to sign in:
 
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 
 
+Make your code and always save it in that Github folder.
 
+git add file.txt
 
+git commit -m "Your title for your commit that will show up in the repository"
 
+git push origin master
 
+it will prompt you with your username and password
+!!!!!YOU WILL GET AN ERROR THE FIRST TIME YOU DO THIS!!!!!!
 
+To fix this:
+git pull origin master
 
+then
 
+git push origin master
 
+congratulations you've officially mastered github! :)
 
-
+To check if you did this correctly go to Github.com and check the Verona repository to see if it's there.
 
 
 
