@@ -75,6 +75,8 @@ congratulations you've officially mastered github! :)
 
 To check if you did this correctly go to Github.com and check the Verona repository to see if it's there.
 
+If it mentions anything about security issues, make sure Dino has added you to the repository.
+
 
 
 Github referance:
