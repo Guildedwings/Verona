@@ -65,7 +65,7 @@ it will prompt you with your username and password
 !!!!!YOU WILL GET AN ERROR THE FIRST TIME YOU DO THIS!!!!!!
 
 To fix this:
-git pull origin master
+$ git pull origin master
 
 then
 
@@ -76,6 +76,19 @@ congratulations you've officially mastered github! :)
 To check if you did this correctly go to Github.com and check the Verona repository to see if it's there.
 
 If it mentions anything about security issues, make sure Dino has added you to the repository.
+
+If you want to review the commit log:
+$ git log
+Use Shift + Q to get out of it
+
+To make a new branch away from the master branch
+$ git branch whateveryouwanttocallit
+
+and to switch from master to the branch you just made:
+$ git checkout whateveryoucalledit
+
+
+
 
 
 
