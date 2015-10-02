@@ -77,9 +77,30 @@ To check if you did this correctly go to Github.com and check the Verona reposit
 
 If it mentions anything about security issues, make sure Dino has added you to the repository.
 
+$ git branch   //will show all the branches
+
+$ git fetch (whateveryourbranchis)  //will update your branch with any changes to the master branch.
+
+If you want to review the commit log:
+$ git log
+Use Shift + Q to get out of it
+
+To make a new branch away from the master branch
+$ git branch whateveryouwanttocallit
+
+and to switch from master to the branch you just made:
+$ git checkout whateveryoucalledit
+
+To view all the branches...
+$ git branch
+
+'master' is the main branch...
+
 
 
 Github referance:
+
+Fork - making a change to a bunch of classes in which you branch off and later merge with the master branch.
 
 git init //establishes the folder you want to do Github stuff in. Use sommands like dir to choose a location and then cd (whatever file) to get to that location
 git add (whatever but must add the .txt or .doc or .exe or .whatever)
