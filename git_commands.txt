@@ -86,7 +86,9 @@ $ git log
 Use Shift + Q to get out of it
 
 To make a new branch away from the master branch
-$ git branch whateveryouwanttocallit
+$ git branch whatever
+or
+$ git checkout -b whatever
 
 and to switch from master to the branch you just made:
 $ git checkout whateveryoucalledit
@@ -95,6 +97,10 @@ To view all the branches...
 $ git branch
 
 'master' is the main branch...
+
+if you get an error pertaining to saving your work in a branch:
+$ git stash
+then you can switch between branches
 
 
 
